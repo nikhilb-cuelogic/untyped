@@ -20,5 +20,3 @@ var r5 = b | e;
 var r6 = e | a;
 
 var henceIKnow = iWantToKnow;
-
-
