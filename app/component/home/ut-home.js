@@ -10,7 +10,16 @@ var a = 1;
 var b = 2;
 var c = 3;
 var d = 0;
-var e = "I do not know";
+    var e = "I do not know that";
+
+var Person = function() {
+    Name = "Nikhil Babar";
+    Age = 25;
+
+    Walk =  function () {
+        Age = 28;
+    }
+};
 
 var r1 = a | b | c | d;
 var r2 = a & b & c & d;
