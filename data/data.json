@@ -1,0 +1,117 @@
+// Beverages
+// Types of Alcoholic Beverages
+// The variety of alcohol types, different brands, and mixing ingredients is sometimes overwhelming. SYRUP Magazine makes it easy for you to gain a clear understanding of each type of alcohol and mixing ingrediants by breaking them down to their basic classes: Spirits, Liqueurs, Wines & Champagnes, Beers, and Mixers.
+
+
+// SPIRITS
+
+// GIN - a colorless alcoholic beverage made by distilling or redistilling rye or other grain spirits and adding juniper berries or aromatics such as anise, caraway seeds, or angelica root as flavoring.
+
+// VODKA - originally distilled from fermented wheat mash but now also made from a mash of rye, corn, or potatoes.
+
+// RUM - distilled from cane juice, or from the scummings of the boiled juice, or from treacle or molasses, or from the lees of former distillations. Also, sometimes used colloquially as a generic or a collective name for intoxicating liquor.
+
+// WHISKEY - distilled from grain, potatoes, etc., especially in Scotland, Ireland, and the United States. In the United States, whisky is generally distilled from maize, rye, or wheat, but in Scotland and Ireland it is often made from malted barley.
+
+// TEQUILA - an alcoholic liquor distilled from the fermented juice of the Central American century plant Agave tequilana.
+
+// BRANDY - an alcoholic liquor distilled from wine or fermented fruit juice.
+
+
+// LIQUEURS (FLAVORED SPIRITS)
+
+// Liqueurs are flavored spirits prepared by infusing certain woods, fruits, or flowers, in either water or alcohol, and adding sugar, etc. Others are distilled from aromatic or flavoring agents.
+
+// WINES & CHAMPAGNE
+
+// RED WINE - wine having a red color derived from skins of dark-colored grapes.
+
+// WHITE WINE - any wine of a clear, transparent color, bordering on white, as Madeira, sherry, Lisbon, etc.; -- distinguished from wines of a deep red color, as port and Burgundy.
+
+// ROSE WINE - pinkish table wine from red grapes whose skins were removed after fermentation began.
+
+// CHAMPAGNE - a sparkling white wine made from a blend of grapes, especially Chardonnay and pinot, produced in Champagne.
+
+// SPARKLING WINE - any of various effervescent wines, such as champagne, produced by a process involving fermentation in the bottle.
+
+// VERMOUTH - a sweet or dry fortified wine flavored with aromatic herbs and used chiefly in mixed drinks.
+
+
+// BEER
+
+// ALE
+
+// LAGER - a type of beer of German origin that contains a relatively small amount of hops and is aged from six weeks to six months to allow sedimentation.
+
+// CIDER 
+
+// NON-ALCOHOLIC MIXERS
+
+// WATER
+
+// JUICE
+
+// SPARKLING BEVERAGES
+
+// SYRUPS
+
+// COFFEE
+
+// CHOCOLATE
+
+
+
+{
+    "Beverages":
+    [{
+        "BeverageClass":"Spirits", 
+        "ClassItems": [ 
+            {"BeverageType":"Gin", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Vodka", "BeverageTypeItems": [] },
+            {"BeverageType":"Rum", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Whiskey", "BeverageTypeItems": [] },
+            {"BeverageType":"Tequila", "BeverageTypeItems": [] },
+            {"BeverageType":"Brandy", "BeverageTypeItems": [] } 
+        ]
+    },
+    {
+        "BeverageClass":"Liqueurs", 
+        "ClassItems": [
+            
+        ]
+    },
+    {
+        "BeverageClass":"Wines & Champagnes", 
+        "ClassItems": [
+            {"BeverageType":"Red Wine", "BeverageTypeItems": [] }, 
+            {"BeverageType":"White Wine", "BeverageTypeItems": [] },
+            {"BeverageType":"Rose Wine", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Chapagne", "BeverageTypeItems": [] },
+            {"BeverageType":"Sparkling Wine", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Vermouth", "BeverageTypeItems": [] }
+        ]
+    },
+    {
+        "BeverageClass":"Beers", 
+        "ClassItems": [
+            {"BeverageType":"Ale", "BeverageTypeItems": [] },
+            {"BeverageType":"Lager", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Cider", "BeverageTypeItems": [] }            
+        ]
+    },
+    {
+        "BeverageClass":"Non-Alcoholic Mixers", 
+        "ClassItems": [
+            {"BeverageType":"Water", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Juice", "BeverageTypeItems": [] }
+        ]
+    },
+    {
+        "BeverageClass":"Sparkling Beverages", 
+        "ClassItems": [
+            {"BeverageType":"Syrups", "BeverageTypeItems": [] }, 
+            {"BeverageType":"Coffee", "BeverageTypeItems": [] },
+            {"BeverageType":"Chocolate", "BeverageTypeItems": [] }
+        ]
+    }]
+}
